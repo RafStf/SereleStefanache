@@ -52,6 +52,9 @@ h2 {
 }
 
 @media (max-width: 980px) {
+  body {
+    width: auto;
+  }
   #contact {
     padding: 10px 100px;
   }
