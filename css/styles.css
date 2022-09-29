@@ -9,7 +9,7 @@ h2 {
 } */
 /* TOP BAR */
 
-.container-contact {
+#contact {
   background-color: #ac66ae;
   color: white;
   padding: 1.5% 12%;
@@ -177,4 +177,72 @@ h2 {
   font-size: 20px;
   line-height: 1.8em;
   color: #7cda24 !important;
+}
+/* About US SECTION */
+
+#about-us-title {
+  background-image: linear-gradient(
+      90deg,
+      rgba(244, 240, 233, 0.9) 30%,
+      rgba(244, 240, 233, 0) 119%
+    ),
+    url(/images/aboutUs.png) !important;
+  background-size: cover;
+  height: max-content;
+}
+
+#about-us-title .box {
+  color: #555555;
+}
+
+#about-us {
+  background-image: linear-gradient(
+    180deg,
+    rgba(104, 174, 102, 0.09) 0%,
+    rgba(104, 174, 102, 0.09) 100%
+  ) !important;
+}
+
+#about-us {
+  padding: 5% 12%;
+}
+
+.about-us-img {
+  width: 50%;
+  height: auto;
+}
+
+.under-title h2 {
+  font-family: "Alice", Georgia, "Times New Roman", serif;
+  font-size: 42px;
+  line-height: 1.3em;
+  color: #555555;
+  text-align: left;
+}
+
+.under-title p {
+  font-family: "Viga", sans-serif;
+  font-size: 16px;
+  line-height: 1.8em;
+  color: #555555;
+  text-align: left;
+}
+
+.about-us-par {
+  padding-top: 5%;
+}
+
+.box-2 {
+  background-image: linear-gradient(
+      74deg,
+      #fff8ea 45%,
+      rgba(213, 222, 232, 0) 73%
+    ),
+    url(https://hastaysgreenhouse.com/wp-content/uploads/2018/09/f3-e1537556916138.jpg) !important;
+  color: #555555;
+  padding: 6% 12%;
+  position: relative;
+  background-color: #fff;
+  background-position: 50%;
+  background-size: cover;
 }
